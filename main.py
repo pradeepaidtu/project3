@@ -2,11 +2,11 @@ import os
 import math
 
 
-def add(a, b) -> int:
+def add(a, b):
     return math.floor(a + b)
 
 
-def to_sentence(s) -> str:
+def to_sentence(s):
     s = s.capitalize()
 
     if s.endswith('.'):
@@ -15,6 +15,6 @@ def to_sentence(s) -> str:
         return s + '.'
 
 
-def sub(a, b) -> int:
+def sub(a, b):
     return math.floor(a - b)
 
