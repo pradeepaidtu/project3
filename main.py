@@ -4,8 +4,6 @@ import sys
 
 
 def add(a, b):
-    import sys
-    sys.setrecursionlimit(10000)
     return math.floor(a + b)
 
 
