@@ -2,7 +2,6 @@
 # To update, run:
 #
 #    pip-compile
-pylint==1.9.5
 cycler==0.10.0            # via matplotlib
 kiwisolver==1.2.0         # via matplotlib
 matplotlib==3.2.1
