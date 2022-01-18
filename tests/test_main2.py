@@ -2,9 +2,9 @@ import main2
 
 
 def test_sub():
-    assert main2.sub(3, 4) == -1
+    assert main2.sub(3, 4) == 0
     assert main2.sub(4.5, 4) == 0
-    assert main2.sub(3.9, 4) == -1
+    assert main2.sub(3.9, 4) == 0
     assert main2.sub(4.2, 3.8) == 0
 
 
