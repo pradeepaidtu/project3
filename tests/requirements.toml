@@ -2,63 +2,14 @@
 # To update, run:
 #
 #    pip-compile
-[tool.poetry]
-name = "falcon-back"
-version = "0.1.0"
-description = "The backend for falcon"
-authors = ["Attentive AI"]
 
-[tool.poetry.dependencies]
-python == "3.8.5"
-Django == "3.0.11"
-psycopg2 == "2.8.6"
-psycopg2-binary == "2.8.6"
-celery == "4.3.0"
-djangorestframework == "3.12.2"
-django-cors-headers == "3.5.0"
-google-api-python-client == "1.9.3"
-vine == "1.3.0"
-Pillow == "8.0.1"
-django-rest-knox == "4.1.0"
-django-storages == "1.8"
-google-cloud-storage == "1.25.0"
-google-cloud-logging == "1.14.0"
-google-auth-httplib2 == "0.0.4"
-google-auth-oauthlib == "0.4.2"
-drf-nested-routers == "^0.92.1"
-gunicorn == "^20.0.4"
-pyproj == "^3.0.0"
-django-environ == "0.4.5"
-Pyrebase4 == "^4.4.1"
-geojson == "2.5.0"
-WeasyPrint == "52.2"
-XlsxWriter == "^1.3.7"
-Shapely == "1.7.1"
-stripe == "^2.55.1"
-django-filter == "2.4.0"
-django-crispy-forms == "^1.10.0"
-django-celery-beat == "2.0.0"
-sentry-sdk == "0.19.5"
-django-unmigrate == "^0.1.4"
-django-extensions == "^3.1.1"
-django-admin-rangefilter == "^0.7.0"
-pdfrw == "0.4"
-pandas == "1.2.4"
-pygsheets == "2.0.5"
-sendgrid == "6.7.1"
-geopy == "^2.2.0"
-
-[tool.poetry.dev-dependencies]
-black = {version = "^20.8b1", allow-prereleases = true}
-pre-commit == "^2.8.2"
-RBTools == "^1.0.3"
-django-cprofile-middleware == "^1.0.5"
-ipython == "^7.20.0"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
+[[package]]
+name = "amqp"
+version = "2.6.1"
+description = "Low-level AMQP client for Python (fork of amqplib)."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 
 pylint==1.9.5
