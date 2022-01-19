@@ -2,6 +2,7 @@
 # To update, run:
 #
 #    pip-compile
+[tool.poetry]
 pylint==1.9.5
 cycler==0.10.0            # via matplotlib
 kiwisolver==1.2.0         # via matplotlib
