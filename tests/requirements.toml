@@ -3,6 +3,12 @@
 #
 #    pip-compile
 [tool.poetry]
+name = "falcon-back"
+version = "0.1.0"
+description = "The backend for falcon"
+authors = ["Attentive AI"]
+
+
 pylint==1.9.5
 cycler==0.10.0            # via matplotlib
 kiwisolver==1.2.0         # via matplotlib
